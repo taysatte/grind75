@@ -66,4 +66,4 @@ def twoSum(self, pList: list[int], pTarget: int) -> list[int]:
         else:
             compDict[comp] = i
 ```
-The time complexity of the hashmap / dictionary approach above is ```O(n)```, which is much better than the brute-force algo as we only traverese the dictionary containing ```n``` elements once. Space complexity: ```O(n)```. The extra space required depends on the number of items stored in the hash table, which stores at most ```n``` elements.
+The time complexity of the hashmap / dictionary approach above is ```O(n)```, which is much better than the brute-force algo as we only traverse the dictionary containing ```n``` elements once. Space complexity: ```O(n)```. The extra space required depends on the number of items stored in the hash table, which stores at most ```n``` elements.
