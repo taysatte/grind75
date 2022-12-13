@@ -44,5 +44,42 @@ Constraints:<br>
 
 # Explanation
 
+This problem requires some basica fundamental knowledge of how linked list nodes are constructed and how linked lists work in general. The approach is pretty straight-forward:
+<ul>
+  <li>Create a dummy head node to create a new sorted linked list
+   <li>Start with a pointer at the head of each list
+    <li>Walk down each list comparing the data within the nodes of each list
+    <li>If the data from list1 is less than <i>list2</i> append it to the new list; else, append <i>list2's</i> data to the list
+</ul>
+There's a couple edge cases that need to be handled, such as the case for when the lists are not equal in length. Since the lists are already in sorted order, once one list has been exhausted, the longer list can just get appended to the back of the new list.
+<br><br>
+
 ``` python3
+class Node:
+    def __init__(self, data = 0):
+        self.data = data
+        self.next = None
+        
+class Solution:
+    def mergeTwoLists(self, list1, list2):
+        dummy = Node()
+        head = dummy
+
+        while list1 and list2:
+            if list1.data < list2.data:
+                head.next = list1
+                list1 = list1.next
+            else:
+                head.next = list2
+                list2 = list2.next
+            head = head.next
+
+        if list1:
+            head.next = list1
+            list1 = list1.next
+        if list2:
+            head.next = list2
+            list2 = list2.next
+
+        return dummy.next
 ```
