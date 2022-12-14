@@ -44,7 +44,7 @@ Constraints:<br>
 
 # Explanation
 
-This problem requires some basica fundamental knowledge of how linked list nodes are constructed and how linked lists work in general. The approach is pretty straight-forward:
+This problem requires some basics fundamental knowledge of how linked list nodes are constructed and how linked lists work in general. The approach is pretty straight-forward:
 <ul>
   <li>Create a dummy head node to create a new sorted linked list
    <li>Start with a pointer at the head of each list
