@@ -1,6 +1,3 @@
-
-from typing import List
-
 class Solution:
     def is_palindrome(self, s: str) -> bool:
         left, right = 0, len(s) - 1
