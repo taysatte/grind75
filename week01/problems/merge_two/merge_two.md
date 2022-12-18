@@ -13,7 +13,7 @@ Merge the two lists in a one sorted list. The list should be made by splicing to
 
 Return <i>the head of the merged linked list.</i>
 
-<center><a href="https://ibb.co/pnrpZwD"><img src="https://i.ibb.co/vDv8mq5/merge-ex.png" alt="merge-ex" border="0"></a></center>
+<center><img src="https://i.ibb.co/vDv8mq5/merge-ex.png" alt="merge-ex" border="0"></a></center>
 
 ### Example 1:
 
