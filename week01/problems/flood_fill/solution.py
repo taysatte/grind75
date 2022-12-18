@@ -18,3 +18,4 @@ class Solution:
         self.fill(image, sr - 1, sc, color, new_color) # Up
         self.fill(image, sr, sc + 1, color, new_color) # Right
         self.fill(image, sr, sc - 1, color, new_color) # Left
+        
