@@ -29,7 +29,7 @@ Constraints:<br>
 
 # Explanation
 
-This problem is pretty simple once you can somewhat grasp the idea of recurrsion and how a tree is constructed. For a little background info: a binary tree is a data structure that is constructed by ```TreeNode```'s. At each node there exists a value and pointers to its child ```TreeNode```'s (left and right). Essentially, a tree is made up from a bunch of subtrees, which serves as a perfect candidate problem for a recurrsive algorithm.
+This problem is pretty simple once you can somewhat grasp the idea of recursion and how a tree is constructed. For a little background info: a binary tree is a data structure that is constructed by ```TreeNode```'s. At each node there exists a value and pointers to its child ```TreeNode```'s (left and right). Essentially, a tree is made up from a bunch of subtrees, which serves as a perfect candidate problem for a recursive algorithm.
 
 Inverting a tree is basically traveresing the tree down both sides and swapping the children at each node on the way back up. 
 
@@ -38,8 +38,8 @@ So, here's the main idea:
 <ul>
 <li>Establish a base case (if the <i>root == null</i>, return <i>root</i>)
 <li>Set up the swapping operation to swap the children nodes
-<li>Recurrsively call the <i>invert_tree()</i> function on both sides of the tree
-<li>Once the recurrsive operations reach the end, the main function will return <i>root</i>
+<li>Recursively call the <i>invert_tree()</i> function on both sides of the tree
+<li>Once the recursive operations reach the end, the main function will return <i>root</i>
 </ul>
 
 ``` python3
