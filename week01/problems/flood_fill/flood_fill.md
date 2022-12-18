@@ -46,7 +46,7 @@ Constraints:<br>
 
 # Explanation
 
-This problem is great for building a mental visualization of the depth-first search algorithm. It's basically a "fill" function used in a lot of popular editing applications. Here's how the algorithm works:
+This problem is great for building a mental visualization of the depth-first search algorithm. It's basically a "fill" function which are commonly used in a lot of popular editing applications. So, here's how the algorithm works:
 
 <ul>
 <li>We need to establish a main function <i>flood_fill()</i> for returning the final image and a recursive helper function <i>fill()</i> to do the recoloring
