@@ -38,7 +38,8 @@ Constraints:<br>
 <ul>
 <li>Store each element as a key and its number of ocurrences as a value in a dictionary
 <li>Return true if the value is >= to 2 (meaning there is a duplicate element)
-</ul>Or return false if each value is <= 2 (meaning each element is unique)
+<li>Or return false if each value is <= 2 (meaning each element is unique)
+</ul>
 
 ``` python3
 class Solution:
