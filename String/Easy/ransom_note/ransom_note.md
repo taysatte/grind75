@@ -25,7 +25,7 @@ Input: ransomNote = "aa", magazine = "ab"
 Output: false
 ```
 
-### Example 2:
+### Example 3:
 
 ```
 Input: ransomNote = "aa", magazine = "aab"
