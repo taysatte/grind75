@@ -32,7 +32,7 @@ Constraints:<br>
 # Explanation
 
 <ul>
-<li>If the input array's length is less than or equal to 1, no work is done
+<li>If the input array's length is less than or equal to 1, return the array because no work is needed
 <li>Else, we can loop through the array and for every 0 we'll remove it and append it to the array
 </ul>
 
